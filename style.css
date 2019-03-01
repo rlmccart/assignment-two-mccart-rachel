@@ -1,0 +1,49 @@
+/*
+Theme Name: Assignment Two - Rachel McCart 
+Theme URI: 
+Author: Rachel M 
+Description: Theme for assignment 2 
+Version: 1.0
+License: Open 
+Text Domain: assignment-two-mccart-rachel
+*/
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+
+body {
+    background: white;
+    padding: 0 20px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: red;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.column, 
+.columns {
+    margin-left: 0%;
+}
+
+.one-half.column.posts {
+    padding: 25px;
+}
+
+.post-title {
+    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    color: red;
+}
+
+.post-date {
+    margin-left: 15px;
+}
+
+.post-feature {
+    display: none;
+}
